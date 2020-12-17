@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 640px)" href="styles-mobile.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <title>Corraire Amanda - Developpeuse web</title>
+</head>
+
+<body>
+    <div>
+        <a href="#"><img id="haut_page" src="images/haut_page.png" alt="icone pour aller en haut de page"></img></a>
+    </div>
+    <header>
+        <div id="logotitre">
+            <img id="logoheader" src="images/Mon_logo.svg" alt="Mon logo"></img>
+            <h1>Corraire Amanda<br><br>Developpeuse web</h1>
+        </div>
+        <div id="menunav">
+            <button id="burger"><img id="burgerimg" src="images/burger.ico"></button> 
+            <p id="menuburger">Menu</p>   
+            <nav>
+                <ul>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menunav2">
+            <button id="burger2"><img id="burgerimg2" src="images/burger.ico"></button>
+            <nav>
+                <ul>
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h2 id="apropos">{A propos}</h2>
+        <div id="textp_logo">
+            <p id="prop">
+                Moi c'est Amanda, après quelques bugs dans ma toute jeune carrière professionnelle, j'ai décidé de faire une réinitialisation de mon système et faire ce qui me passionne vraiment depuis plusieurs années déjà:<br><br>Le développement web !<br><br>Aujourd'hui forte d'une formation professionnelle, complète et de compétences solides, je recherche un poste afin d'enrichir ma base de donnée et collaborer pour mettre à profit les connaissances s'y trouvant déjà.<br>Sociable et souriante, je suis à l'aise en toute situation, les crashs sont faits pour être surmontés et cela ne m'impressionne pas.<br>Vous trouverez plus loin mes différents projets réalisés lors de ma formation professionnelle ainsi que d'autres réalisés bénévolement.<br><br>Vous souhaitez émettre une requête ? Rendez-vous dans la rubrique contact !
+            </p>
+            <img id="moi" src="images/photo_moi.svg" alt="photo amanda corraire">
+        </div>
+    </section>
+
+    <section>
+        <h2 id="portfolio">{Portfolio}</h2>
+        <div class="chevronstexte">
+            <img src="images/chevron_left.svg" alt="image chevron">
+            <p>Quelques projets réalisées en cours de formation ou bénévolement</p>
+            <img src="images/chevron_right.svg" alt="image chevron">
+        </div>
+        <div class="projets">
+            <a href=""> <!--TODO-->
+                <img src="projets/agence_voyage_miniature.png" alt="site agence de voyage">
+            </a>
+            <a href=""> <!--TODO-->
+                <img src="projets/lfmr_miniature.png" alt="Site d'offre cocooning">
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <h2 id="parcours">{Parcours, expériences et compétences}</h2> 
+        <div id="exp">
+            <div id="imgparc">
+                <img src="images/experience.svg" alt="expériences professionnelle">
+            </div>
+            <div id="logos">
+                <img src="images/PHP-logo.svg" alt="logo PHP">
+                <img src="images/HTML5_logo.svg" alt="logo Html 5">
+                <img src="images/CSS3_logo.svg" alt="logo CSS 3">
+                <img src="images/javascript-logo.svg" alt="logo Javascript">
+                <img src="images/mysql.svg" alt="logo My SQL">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 id="contact">{Contact}</h2>
+        <div class="chevronstexte">
+            <img src="images/chevron_left.svg" alt="image chevron">
+            <p>Cette visite vous a plu ?<br>Vous souhaitez prendre contact avec moi ?</p>
+            <img src="images/chevron_right.svg" alt="image chevron">
+        </div>
+        <div id="button">
+            <button class="click" type="button"><a id="click" href="formulaire de contact.html">Appuyez ici !</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Amanda Corraire - developpeuse web - 2020 </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

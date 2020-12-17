@@ -1,0 +1,44 @@
+body
+{
+    background-image:linear-gradient(90deg, rgba(2,0,36,0.70), rgba(255,255,255,0.70), rgba(0,0,0,0.70)),url(images/Fond_site.svg);
+    margin:0;
+    width: 100%;
+}
+
+html 
+{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+iframe 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+}
+
+#retour_accueil
+{
+    width:3vw;
+    border: 2px solid #000000;
+    border-radius:50px;
+    position:fixed;
+    bottom:13px;
+    left: 20px;
+    transform: rotate(-0.25turn);
+    z-index: 1;
+}
+
+.back
+{
+    font-size:1em;
+    position:fixed;
+    bottom:13px;
+    left:80px;
+    z-index: 1;
+}

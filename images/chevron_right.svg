@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g id="chevron-right1" transform="translate(250 250)">
+    <g id="chevron-right" transform="translate(-250 -250)">
+      <g id="chevron-right-2" data-name="chevron-right">
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="500" height="500" transform="translate(0 500) rotate(-90)" opacity="0"/>
+        <path id="Tracé_3" data-name="Tracé 3" d="M30.448,215.647a20.834,20.834,0,0,1-14.792-35.625L84.615,111.48,18.365,42.522A20.845,20.845,0,1,1,47.948,13.147L128.365,96.48a20.833,20.833,0,0,1,0,29.167L45.032,208.98A20.833,20.833,0,0,1,30.448,215.647Z" transform="translate(188.302 138.52)"/>
+      </g>
+    </g>
+  </g>
+</svg>
